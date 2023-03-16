@@ -1,6 +1,12 @@
 <html>
 <head>
   <style type='text/css'>
+  html,body{
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+	}
   body {
 	 background: #000;
 	 height: 100vh;
@@ -9,11 +15,7 @@
 	 font-family: 'IMPACT', sans-serif;
 	 justify-content: center;
 	 align-items: center;
-	 perspective: 1000px;
-   -webkit-backface-visibility: hidden;  
-   backface-visibility: hidden;
-   -webkit-perspective: 1000;
-   perspective: 1000;
+   perspective: 1000px;
 	}
 	 div {
 		 transform-style: preserve-3d;
