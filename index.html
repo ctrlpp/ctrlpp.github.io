@@ -10,7 +10,10 @@
 	 justify-content: center;
 	 align-items: center;
 	 perspective: 1000px;
-	 overflow:hidden;
+   -webkit-backface-visibility: hidden;  
+   backface-visibility: hidden;
+   -webkit-perspective: 1000;
+   perspective: 1000;
 	}
 	 div {
 		 transform-style: preserve-3d;
